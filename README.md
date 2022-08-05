@@ -5,18 +5,18 @@
 
 
 <details>
-<summary>Stack :white_check_mark:</summary>
+<summary>Stack :pushpin:</summary>
 
-### [Stack C](/stack/stackcode.c)
-### [Stack PYTHON](/stack/stackcode.py)
+#### [Stack C](/stack/stackcode.c)
+#### [Stack PYTHON](/stack/stackcode.py)
 
 </details>
 
 <details>
-<summary>Queue :white_check_mark:</summary>
+<summary>Queue :pushpin:</summary>
 
-### [Queue C](/stack/stackcode.c)
-### [Queue PYTHON](/stack/stackcode.py)
+#### [Queue C](/queue/queuecode.c)
+#### [Queue PYTHON](/queue/queuecode.py)
 
 </details>
 
