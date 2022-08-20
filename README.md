@@ -1,4 +1,4 @@
-# Data Structs
+# Data Structures
 :white_large_square: UNDONE|
 :round_pushpin: WORKING ON|
 :white_check_mark: DONE|
@@ -14,6 +14,7 @@
 
 <details>
 <summary>Linear Structures :round_pushpin:</summary>
+
 
 <details>
 <summary>Stack :round_pushpin:</summary>
