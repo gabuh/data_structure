@@ -1,46 +1,35 @@
-/**
- * Recursividade
- * 
- *functions
- * fseek(), sizeof(verify the size) posi inicial, posicao corrent, posicao final
- * fread(), fwrite
- * (Nro.pesq-1)*sizeof(tamanho do registro),0)
- * 
- * 
- * */
+
  #include<stdio.h>
  #include<string.h>
+  
  
-// fseek();
- 
- 
-int binarySearchRecursive(int vector[],int indexTotal,int value,int start,int B_mid){
-  int mid;//---------it wont work
+int binarySearchRecursive(int vector[],int indexTotal,int value,int start,int previous_mid){
+  int mid;
   mid=(start + indexTotal)/2;
   if(value == vector[mid]){
     return mid;
   }
   
-  if(mid==B_mid){
+  if(mid==previous_mid){
   return -1;
   }
   
-  B_mid=mid;
+  previous_mid=mid;
   
   if(value > vector[mid] ){
-    return binarySearchRecursive(vector,indexTotal,value,mid,B_mid);
+    return binarySearchRecursive(vector,indexTotal,value,mid,previous_mid);
   }
   else if(value < vector[mid]){
-    return binarySearchRecursive(vector,mid,value,start,B_mid);
+    return binarySearchRecursive(vector,mid,value,start,previous_mid);
   }
 }
 
 
 int binarySearch(int vector[],int indexTotal,int value){
   int start=0;
-  int B_mid,mid;
-  while(B_mid!=mid){
-  B_mid=mid;
+  int previous_mid,mid;
+  while(previous_mid!=mid){
+  previous_mid=mid;
   mid=(start + indexTotal)/2;
   if(value == vector[mid]){
     return mid;
