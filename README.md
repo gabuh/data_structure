@@ -5,6 +5,15 @@
 ---
 
 <details>
+<summary>Sorting Algorithms :round_pushpin:</summary>
+
+#### Nothing YET
+
+</details>
+
+---
+
+<details>
 <summary>Seaching Algorithms :round_pushpin:</summary>
 
 #### [Binary Search C](/searchingAlgorithms/binarySearch.c)
