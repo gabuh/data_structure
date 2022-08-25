@@ -1,7 +1,8 @@
-# Data Structures
-:white_large_square: UNDONE|
-:round_pushpin: WORKING ON|
-:white_check_mark: DONE|
+# Data Structs
+| :white_large_square: UNDONE | :round_pushpin: WORKING ON | :white_check_mark: DONE|
+|---|---|---|
+
+---
 
 <details>
 <summary>Seaching Algorithms :round_pushpin:</summary>
