@@ -1,7 +1,11 @@
+/*
+github: gabuh ~ 21/08/2022
+Objective: Create Binary Search Algorithms methods: Recursive and Loop
 
+*/
  #include<stdio.h>
  #include<string.h>
-  
+
  
 int binarySearchRecursive(int vector[],int indexTotal,int value,int start,int previous_mid){
   int mid;
